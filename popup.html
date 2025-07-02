@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Notification Sound</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Video Notification Sound</h1>
+      <p class="subtitle">Get notified before videos play</p>
+    </div>
+    
+    <div class="controls">
+      <div class="toggle-container">
+        <label class="toggle-label">
+          <input type="checkbox" id="enableToggle" class="toggle-input">
+          <span class="toggle-slider"></span>
+          <span class="toggle-text">Enable notifications</span>
+        </label>
+      </div>
+      
+      <div class="status" id="status">
+        <span class="status-text">Loading...</span>
+      </div>
+      
+      <div class="actions">
+        <button id="testSound" class="btn btn-secondary">Test Sound</button>
+        <div class="custom-sound-section">
+          <label for="soundFile" class="file-label">
+            <span class="file-text">Choose Custom Sound</span>
+            <input type="file" id="soundFile" accept="audio/*" class="file-input">
+          </label>
+          <button id="resetSound" class="btn btn-tertiary">Use Default Sound</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="info">
+      <h3>How it works:</h3>
+      <ul>
+        <li>Detects when videos are about to play</li>
+        <li>Plays a notification sound first</li>
+        <li>Works on most video platforms</li>
+        <li>Can be enabled/disabled anytime</li>
+      </ul>
+    </div>
+    
+    <div class="footer">
+      <p>Version 1.0.0</p>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

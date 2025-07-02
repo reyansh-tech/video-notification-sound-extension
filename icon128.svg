@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="20" fill="#667eea"/>
+  <path d="M32 48L64 32L96 48V96L64 80L32 96V48Z" fill="white" stroke="none"/>
+  <circle cx="88" cy="40" r="16" fill="#ffd700"/>
+  <path d="M76 34L80 26L84 34L92 38L84 42L80 50L76 42L68 38L76 34Z" fill="#667eea"/>
+  <path d="M48 58H80V70H48V58Z" fill="#667eea" opacity="0.7"/>
+  <path d="M48 74H70V80H48V74Z" fill="#667eea" opacity="0.5"/>
+  <path d="M48 84H76V88H48V84Z" fill="#667eea" opacity="0.3"/>
+  
+  <!-- Sound waves -->
+  <path d="M100 50C106 56 106 72 100 78" stroke="#764ba2" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M106 44C114 52 114 76 106 84" stroke="#764ba2" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M112 38C122 48 122 80 112 90" stroke="#764ba2" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+</svg>
